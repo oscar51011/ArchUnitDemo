@@ -1,9 +1,15 @@
 # ArchUnit Framework 研究
 
+###### 注意事項:
 - 專案有Lombok，如要使用需要在 IDE 底下安裝 lombok.jar
 - 專案無連接資料庫，只是示意情境使用
-- Framework為Unit Test Framework，使用方式至`src/test/java`底下的`com.archUnit`有附上Demo情境 Run Unit Test
+- Framework為Unit Test Framework，情境:<br>
+  => `src/test/java/com.archUnit` Run Unit Test
+  
 
+###### 凍結規則:
+- 第一次執行規則後，會將其存至plain text file，後續只會報告新的違規項目
+- 凍結的設定檔: `src/test/java/resources/archUnit.properties`
 
 # Reference:
 - [ArchUnit](https://www.archunit.org/)
